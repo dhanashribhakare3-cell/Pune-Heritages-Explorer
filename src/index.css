@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-parchment-50: #FDFBF7;
+  --color-parchment-100: #F8F5EE;
+  --color-parchment-200: #EFE9DC;
+  --color-parchment-300: #E2D8C3;
+  --color-forest-50: #F2F7F4;
+  --color-forest-100: #DFEDE4;
+  --color-forest-700: #204332;
+  --color-forest-800: #1B382B;
+  --color-forest-900: #12281E;
+  --color-terracotta-50: #FDF6F3;
+  --color-terracotta-100: #F9E8E1;
+  --color-terracotta-500: #D9653B;
+  --color-terracotta-600: #C85A32;
+  --color-terracotta-700: #9A3412;
+  --color-gold-400: #E5C07B;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B89324;
+}
+
+/* Ensure Leaflet controls sit below our modals and sticky headers */
+.leaflet-pane {
+  z-index: 10 !important;
+}
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 20 !important;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F5EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6CEBE;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C0B49F;
+}

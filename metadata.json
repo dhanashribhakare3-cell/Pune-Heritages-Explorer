@@ -1,0 +1,10 @@
+{
+  "name": "Remix Pune Heritage Explorer",
+  "description": "Discover Pune. Explore Its History. Find Your Next Journey. An interactive heritage discovery and trip-planning web application.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
